@@ -1,0 +1,33 @@
+install project: npx create-next-app@13.4
+enter name of project and then click enter
+
+Local:
+- npm run dev
+Prod:
+- npm run build 
+- npm start
+
+
+# It has some points
+1- When creating page.tsx in folder that mean create a new router
+2- Folder [id] this is dynimac
+3- Folder [[slug]] this is optional and dynimac for example: /category/product/name
+4- loading.tsx / not-found.tsx / error.tsx "Pages to process"
+
+
+
+https://tailwindcss.com
+
+https://daisyui.com/docs/install/
+https://sentry.io/welcome/
+https://zod.dev/   validation
+- npm i zod
+
+https://www.prisma.io/?via=start&gad_source=1  connection to DB
+- npm i prisma
+- npx prisma init
+- go to env and change the connection with DB
+- go to prisma folder then schema file and then 
+  change datasource db -> provider to mysql
+
+- npx prisma format  // format the code
