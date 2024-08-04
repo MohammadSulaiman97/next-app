@@ -45,5 +45,11 @@ https://console.cloudinary.com/pm/c-b5fcc1716a814759aa7847fccdf4fe/getting-start
 https://next.cloudinary.dev/installation
 copy configuration then go back to console.cloudinary and copy cloud_name from nodejs
 
+CldUploadWidget: go to console.cloudinary tap on settings icon
+then go to upload page and then tap on add upload preset
+copy preset-name and change Signing-Mode
+
+// demo 
+https://demo.cloudinary.com/uw/#/
 
 
