@@ -31,3 +31,19 @@ https://www.prisma.io/?via=start&gad_source=1  connection to DB
   change datasource db -> provider to mysql
 
 - npx prisma format  // format the code
+- npx prisma migrate dev
+
+https://www.prisma.io/docs/orm/more/help-and-troubleshooting/help-articles/nextjs-prisma-client-dev-practices
+
+
+
+// cloud for upload file
+https://console.cloudinary.com/pm/c-b5fcc1716a814759aa7847fccdf4fe/getting-started
+
+- npm i next-cloudinary
+
+https://next.cloudinary.dev/installation
+copy configuration then go back to console.cloudinary and copy cloud_name from nodejs
+
+
+
