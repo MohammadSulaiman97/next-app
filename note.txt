@@ -88,4 +88,11 @@ https://next-auth.js.org/providers/credentials
 - npm i bcrypt
 - npm i -D @types/bcrypt
 
+// email
+https://react.email/
+* template
+- npm i react-email @react-email/components
+* send email
+https://resend.com/emails
+- npm i resend
 
