@@ -1,5 +1,6 @@
 import Image from "next/image";
 import coffee from '@/public/images/coffee.jpg'
+import { Metadata } from "next";
 
 export default async function Home() {
   return (
@@ -15,4 +16,13 @@ export default async function Home() {
       /> */}
     </main>
   )
+}
+
+
+export async function generateMatedata(): Promise<Metadata>{
+  const product = await fetch('');
+  return {
+    title: 'product.title',
+    description: '..'
+  }
 }
