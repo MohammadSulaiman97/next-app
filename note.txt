@@ -96,3 +96,7 @@ https://react.email/
 https://resend.com/emails
 - npm i resend
 
+
+// Lazy Loading 
+- npm i lodash
+- npm i -D @types/lodash
