@@ -8,7 +8,7 @@ export async function GET(
     { params }: { params: { id: string } }){
 
     const product = await prisma.product.findUnique({
-        where: { id: parseInt(params.id) }
+        where: { id: params.id }
     });
 
     if(!product)
@@ -27,7 +27,7 @@ export async function PUT(
         return NextResponse.json(validation.error.errors, { status: 400 })
 
     const product = await prisma.product.findUnique({
-        where: { id: parseInt(params.id) }
+        where: { id: params.id }
     })
         
     if (!product)
@@ -53,7 +53,7 @@ export async function DELETE(
     { params }: { params: { id: string } }){
 
     const product = await prisma.product.findUnique({
-        where: { id: parseInt(params.id) }
+        where: { id: params.id }
     })
         
     if (!product)

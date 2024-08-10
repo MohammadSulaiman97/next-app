@@ -100,3 +100,12 @@ https://resend.com/emails
 // Lazy Loading 
 - npm i lodash
 - npm i -D @types/lodash
+
+// deployment - production
+- npm run build
+// cpanel
+vercel
+
+
+- npm i -D encoding
+
